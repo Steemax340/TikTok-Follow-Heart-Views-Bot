@@ -158,7 +158,7 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(executable_path=r'/home/nonameon/Desktop/Programmi/TikTok-Follow-Heart-Views-Bot-main/chromedriver',chrome_options=chrome_options) #Change it
+driver = webdriver.Chrome(executable_path=r'C:\Users\alexi\Downloads\chromedriver_win32',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 
